@@ -29,7 +29,7 @@ bot.setMyCommands([
 bot.on("message", (message) => {
   const text = message.text;
   const id = message.chat.id;
-  console.log(message);
+  // console.log(message);
   if (text === "Don't click") {
     bot.sendMessage(id, "Are ya stupid or smthin?");
   } else {
@@ -57,7 +57,7 @@ const commands = (text, id, bot) => {
 
 
 bot.on("callback_query", (message) => {
-  console.log(message);
+  // console.log(message);
   if (message.data === "clicked") {
     bot.sendMessage(message.message.chat.id, "Are ya stupid or smthin?");
   }
