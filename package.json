@@ -1,0 +1,29 @@
+{
+  "name": "test-telegram-bot",
+  "version": "1.0.0",
+  "description": "Test Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-shliakhetko/test-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "Daniel Shliakhetko <danielshliakhetko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-shliakhetko/test-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/daniel-shliakhetko/test-telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.59.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
