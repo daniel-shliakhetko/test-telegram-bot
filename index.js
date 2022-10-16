@@ -55,6 +55,7 @@ const commands = (text, id, bot) => {
   }
 };
 
+
 bot.on("callback_query", (message) => {
   console.log(message);
   if (message.data === "clicked") {
